@@ -195,9 +195,16 @@ header {
   height: 60px;
 }
 
-#logo img {
-  width: 128px;
-  height: 128px;
+#logo h1 {
+  font-family: "Orbitron", sans-serif;
+  margin: 8px 0px 0px 10px;
+  font-weight: 500;
+  color: var(--cinzaEscuro);
+}
+
+#dev {
+  font-weight: 600;
+  color: var(--vermelho);
 }
 
 #check {
@@ -218,8 +225,8 @@ nav ul {
   height: 100vh;
   position: fixed;
   top: 60px;
-  right: -65%;
-  width: 65%;
+  right: -50%;
+  width: 50%;
   transition: all 0.5s;
 }
 
@@ -251,7 +258,7 @@ nav ul li a {
   text-align: center;
 }
 
-#banner h1 {
+#banner h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 600;
   font-size: 2em;
@@ -261,7 +268,7 @@ nav ul li a {
     0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
-#banner h2 {
+#banner h3 {
   font-size: 1.15em;
   font-weight: 400;
   margin: 15px 0px 50px 0px;
@@ -517,18 +524,22 @@ footer {
     max-width: 540px;
   }
 
+  #logo h1 {
+    margin: 8px 0px 0px 0px;
+  }
+
   /* Banner */
   #banner {
     height: 75vh;
     background-size: cover;
   }
 
-  #banner h1 {
+  #banner h2 {
     font-size: 1.75em;
     margin: 0;
   }
 
-  #banner h2 {
+  #banner h3 {
     font-size: 1em;
   }
 
@@ -585,11 +596,11 @@ footer {
     height: 45vh;
   }
 
-  #banner h1 {
+  #banner h2 {
     font-size: 2.2em;
   }
 
-  #banner h2 {
+  #banner h3 {
     font-size: 1.4em;
   }
 
@@ -664,10 +675,9 @@ footer {
     height: 135px;
   }
 
-  #logo img {
-    width: 242px;
-    height: 242px;
-    margin-top: 10px;
+  #logo h1 {
+    margin-top: 30px;
+    font-size: 3em;
   }
 
   label {
@@ -710,11 +720,11 @@ footer {
     height: 60vh;
   }
 
-  #banner h1 {
+  #banner h2 {
     font-size: 3.25em;
   }
 
-  #banner h2 {
+  #banner h3 {
     font-size: 1.8em;
   }
 
