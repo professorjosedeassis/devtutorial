@@ -220,7 +220,7 @@ label {
 
 nav ul {
   list-style: none;
-  background-color: rgba(31, 31, 31, 0.95);
+  background-color: rgba(31, 31, 31, 0.9);
   height: 100vh;
   position: fixed;
   top: 60px;
@@ -246,7 +246,7 @@ nav ul li a {
 
 /* Banner */
 #banner {
-  height: 60vh;
+  height: 50vh;
   background: url(../img/banner10.jpg);
   background-size: cover;
   background-position: center;
