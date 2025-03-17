@@ -154,7 +154,7 @@ body {
 
 .Todos a {
   text-decoration: none;
-  color: var(--cinzaEscuro);  
+  color: var(--cinzaEscuro);
   font-size: 1.25em;
 }
 
@@ -247,10 +247,9 @@ nav ul li a {
 /* Banner */
 #banner {
   height: 50vh;
-  background: url(../img/banner10.jpg);
+  background: url(../img/bannerH2.jpg);
   background-size: cover;
   background-position: center;
-  color: var(--branco);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,6 +257,7 @@ nav ul li a {
 }
 
 #banner h2 {
+  color: var(--branco);
   font-family: "Orbitron", sans-serif;
   font-weight: 600;
   font-size: 2em;
@@ -463,7 +463,7 @@ footer {
 .pix {
   background-color: var(--branco);
   padding: 1px 3px;
-  font-weight: 600;
+  font-weight: 600; 
 }
 
 #pix {
@@ -473,7 +473,7 @@ footer {
   width: 238px;
   padding: 1px 10px;
   border: 1px solid var(--cinzaClaro);
-  margin-top: 5px;
+  margin: 15px 0px;
 }
 
 /*** Páginas de conteúdo ***/
@@ -534,12 +534,12 @@ footer {
   }
 
   #banner h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     margin: 0;
   }
 
   #banner h3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   /* Rodapé */
@@ -621,6 +621,15 @@ footer {
   .Container,
   .ContainerEx {
     max-width: 960px;
+  }
+
+  #banner h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+  #banner h3 {
+    font-size: 1.1em;
   }
 
   /* Youtube */
@@ -706,25 +715,20 @@ footer {
   #curso #m3,
   #project #m4,
   #tuto #m5,
-  #cafezinho #m6 {      
-      color: var(--vermelho);
+  #cafezinho #m6 {
+    color: var(--vermelho);
   }
 
   nav ul li a:hover {
     color: var(--vermelho);
   }
 
-  /* Banner */
-  #banner {
-    height: 60vh;
-  }
-
   #banner h2 {
-    font-size: 3.25em;
+    font-size: 3em;
   }
 
   #banner h3 {
-    font-size: 1.8em;
+    font-size: 1.75em;
   }
 
   /* Introdução */
@@ -741,7 +745,6 @@ footer {
     border-radius: 50%;
   }
 
-  /* Youtube */
   #textoYoutube h2 {
     font-size: 2em;
   }
@@ -756,12 +759,12 @@ footer {
   }
 
   /* Seções */
-  .Cursos h2 {    
+  .Cursos h2 {
     font-size: 2.5em;
   }
 
   #projetos h2,
   #cursos h2 {
     font-size: 2.5em;
-  }  
+  }
 }
