@@ -268,7 +268,7 @@ nav ul li a {
 }
 
 #banner h3 {
-  font-size: 1.15em;
+  font-size: 1.25em;
   font-weight: 400;
   margin: 15px 0px 50px 0px;
   color: var(--cinzaEscuro);
@@ -438,12 +438,12 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.5em;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 
 #apoio h3 {
   font-weight: 500;
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 1.1em;
 }
 
