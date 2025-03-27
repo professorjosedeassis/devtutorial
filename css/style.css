@@ -412,7 +412,17 @@ footer {
   margin-bottom: 25px;
 }
 
+/*** Banner de páginas ***/
+#logoBanner img {
+  width: 128px;
+  height: 128px;
+}
+
 /*** Página sobre ***/
+#prof {
+  border-radius: 50%;
+}
+
 #textoProf h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
@@ -467,7 +477,7 @@ footer {
 .pix {
   background-color: var(--branco);
   padding: 1px 3px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 #pix {
@@ -649,6 +659,12 @@ footer {
   #imagemYoutube img {
     width: 200px;
     height: 200px;
+  }
+
+  /*** Banner de páginas ***/
+  #logoBanner img {
+    width: 256px;
+    height: 256px;
   }
 
   /*** Página sobre ***/
