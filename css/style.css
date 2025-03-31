@@ -197,7 +197,7 @@ header {
 
 #logo h1 {
   margin: 8px 0px 0px 10px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--cinzaEscuro);
 }
 
@@ -246,7 +246,7 @@ nav ul li a {
 
 /* Banner */
 #banner {
-  height: 50vh;
+  height: 45vh;
   background: url(../img/bannerH2.jpg);
   background-size: cover;
   background-position: center;
@@ -271,7 +271,7 @@ nav ul li a {
   font-size: 1.25em;
   font-weight: 400;
   margin: 15px 0px 50px 0px;
-  color: var(--cinzaEscuro);
+  color: var(--cinzaEscuro); 
 }
 
 /* Introdução */
@@ -490,6 +490,11 @@ footer {
   margin: 15px 0px;
 }
 
+#pix2 {
+  font-size: 0.9em;
+  color: var(--cinzaEscuro);
+}
+
 /*** Páginas de conteúdo ***/
 #conteudo h2 {
   font-family: "Open Sans", sans-serif;
@@ -543,7 +548,7 @@ footer {
 
   /* Banner */
   #banner {
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
   }
 
@@ -614,7 +619,7 @@ footer {
   }
 
   #banner h3 {
-    font-size: 1.4em;
+    font-size: 1em;
   }
 
   /* seções */
@@ -643,7 +648,7 @@ footer {
   }
 
   #banner h3 {
-    font-size: 1.1em;
+    font-size: 1.53em;
   }
 
   /* Youtube */
@@ -745,10 +750,6 @@ footer {
 
   #banner h2 {
     font-size: 3em;
-  }
-
-  #banner h3 {
-    font-size: 1.75em;
   }
 
   /* Introdução */
